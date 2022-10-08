@@ -1,0 +1,71 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+/*  框架头部样式 */
+#Manager_top{
+	height: 88px;
+	background: #8080ff;
+	opacity: 0.7;
+	width: 100%;
+	border-bottom: 2px solid blue;
+}
+#Manager_top h2{
+	margin-top:20px;
+	float: right;
+}
+
+/* 框架左部样式  导航栏的样式修饰 */
+#Manager_left{
+	width: 179px;
+	height: 98%;
+	border:1px solid #8080ff;
+	border-left:0px;
+	position: relative;
+}
+#Manager_left>ul>li{
+	position:relative;
+	width:180px;
+	overflow:hidden;
+	margin-bottom: 10px;
+	
+}
+#Manager_left>ul>li span{
+	display:inline-block;
+	width:160px;
+	height: 23px;
+	background: red;
+	padding-left: 20px;
+	
+}
+#Manager_left>ul>li:HOVER{
+	cursor: pointer;
+	
+	
+}
+#Manager_left>ul>li ul{
+	 display: none; 
+	
+	margin-left:30px;
+	overflow: hidden;
+	
+	
+}
+#Manager_left>ul>li ul>li{
+	width: 120px;
+	
+	margin-top: 10px;
+}
+
+

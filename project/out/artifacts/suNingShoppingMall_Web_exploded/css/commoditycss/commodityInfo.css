@@ -1,0 +1,286 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+
+}
+body{
+    font-family: 微软雅黑;
+
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+
+
+#commodityinfo_body{
+    width: 1190px;
+    
+    
+    overflow: hidden;
+    
+}
+/*这是 商品图片 商品信息的整个的样式设置*/
+#commodityinfo_body #commodity{
+    width: 828px;
+    height: 448px;
+    float: left;
+    /*background: red;*/
+    border: 1px solid #eee;
+    
+}
+
+#commodity .commodityinfo_leftimgs{
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    background: #eee;
+    
+}
+#commodity .commodityinfo_leftimgs img{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+#commodity  .commodity_info{
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    float: right;
+    position: relative;
+    /*background: yellow;*/
+}
+
+#commodity  .commodity_info ul{
+    width: 360px;
+    margin-left: 40px;
+}
+.commodity_info ul li{
+    line-height: 40px;
+    font-size: 13px;
+     
+
+}
+.commodity_info ul li span{
+    font-size: 15px;
+    /*color: red;*/
+}
+.commodity_info ul li input{
+    width: 30px;
+    height: 27px;
+    border: 1px #DCDCDC solid;
+    margin: 0px 5px;
+}
+.commodity_info li img{
+    vertical-align: middle;
+    height: 27px;
+}
+/*.commodity_info .jia{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.commodity_info .jia1{
+
+    background: url("infoims/ico.png") -50 50;
+}*/
+#commodity .city_goma{
+    margin-top: 40px;
+    width: 300px;
+    height: 100px;
+    /*background: red;*/
+    text-align: center;
+    
+    position: relative;
+}
+.borde{
+    border: 1px solid #ffc001;
+}
+.city_goma .close_img,.city_goma p{
+   display: none;
+}
+
+.city_goma .close_img{
+    position: absolute;
+    top: 1px;
+    right: 2px;
+}
+.city_goma p{
+    text-align: left;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+    color: #999;
+    font-weight: 800;
+}
+.city_goma p img{
+    vertical-align: middle;
+    margin: 0px 20px 0px 10px;
+}
+#commodity .city_goma a{
+    position: absolute;
+    bottom: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+    font:16px/40px microsoft yahei; 
+    font-weight: 600;
+     border-radius: 3px;
+}
+#commodity .city_goma a:hover{
+    text-decoration: none;
+    opacity: .8;
+}
+
+
+
+/*这是设置购买和加入购物车和继续购买和去购物车结算按钮的样式*/
+#commodity .city_goma .initialize{
+    width: 115px;
+    height: 40px;
+}
+/*这是同时设置 购买商品和继续购买商品按钮的样式*/
+#commodity .city_goma .btn_goma,#commodity .city_goma .btn_jixugoma{
+    background: rgb(193,224,237);
+    left: 15px;
+}
+/*这是同时设置 加入购物车和去购物车结算按钮样式*/
+#commodity .city_goma .btn_city,#commodity .city_goma .btn_cityjis{
+    background: rgb(21,118,255);
+    left: 150px;
+}
+/*这是设置 购买商品 和加入购物车 按钮的样式*/
+#commodity .city_goma .btn_goma,#commodity .city_goma .btn_city{
+    display: block;
+}
+/*这是设置 继续购物 和去购物车结算 按钮的样式*/
+#commodity .city_goma .btn_jixugoma,#commodity .city_goma .btn_cityjis{
+    display: none;
+}
+
+
+
+
+
+#commodity .commodity_remark{
+     width: 828px;
+     height: 200px;
+     /*background: red;*/
+}
+.commodity_remark .remark{
+    background: #f7f7f7;
+    border-bottom: 2px solid #343434;
+}
+.commodity_remark .remark a{
+    display: inline-block;
+    
+    padding: 0px 25px;
+    height: 34px;
+    background: #343434;
+    color: #fff;
+    line-height: 34px;
+    font: normal 14px/34px \5FAE\8F6F\96C5\9ED1;
+}
+.commodity_remark ul li{
+    line-height: 35px;
+    font-size: 14px;
+}
+.commodity_remark ul li span{
+    margin-left: 20px;
+    color: red;
+}
+
+
+.commodity_remark .inforemarks{
+    text-align: left;
+   
+}
+
+/* 设置可能喜欢 样式*/
+#commodityinfo_body #commodity_recommend{
+    
+    width: 350px;
+    /* height: 900px; */
+    float: right;
+    /*background: blue;*/
+    text-align: center;
+}
+#commodity_recommend .kenengxih{
+    height: 32px;
+    text-align: center;
+    background: rgb(193,224,237);
+    font-size: 18px;
+    color: #fff;
+    padding-top: 8px;
+}
+#commodity_recommend ul li{
+    font-size: 14px;
+    color: #999;
+    background: #f7f7f7;
+    /*border-bottom: 1px #999 solid;*/
+}
+#commodity_recommend ul li p{
+    text-align: left;
+    /*border: 1px solid red;*/
+    width: 200px;
+    height: 40px;
+}
+#commodity_recommend ul li span{
+    color: red;
+    font-size: 16px;
+}
+#commodity_recommend ul li img{
+	width: 200px;
+	height: 200px;
+}
+/*这是购买商品的div*/
+#goumai{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 50px;
+    bottom: 20px;
+    background: rgb(193,224,237);
+;
+    border: 1px solid blue;
+    text-align: center;
+    /* line-height: 35px; */
+}
+#goumai input,#goumai label{
+	margin-top: 13px;
+}
+#goumai .ipt{
+    width: 120px;
+}
+#goumai label{
+    color: #eee;
+    font-size: 13px;
+    margin: 15px 13px;
+}
+#goumai .err-prompt{
+	display:none;
+	width:200px;
+	height:15px;
+	margin:0px auto;
+	margin-right:20px;
+	/*background:red;*/
+	color:red;
+	font-size:13px;
+}
+
+#goumai .sub{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(193,224,237);
+    background: #eee;
+}

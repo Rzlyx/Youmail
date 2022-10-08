@@ -1,0 +1,220 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	font-size:14px;
+	font-family: "微软雅黑";
+}
+/*  这是对商品大类的样式修饰  */
+
+#add_commodityBroad{
+	height: 30px;
+	width: 100%;
+}
+#add_commodityBroad>input{
+	height: 30px;
+	width: 80px;
+	background: #E7F0FF;
+	border: 0px;
+}
+
+/*  商品大类表格修饰*/
+#BroadType_tbl{
+	
+	width:100%;
+	line-height:25px;
+	border-collapse:collapse;
+	text-align: center;
+}
+#BroadType_tbl td{
+	border:1px solid #8080ff;
+}
+#BroadType_tbl td img{
+	width: 100px;
+	height:100px;
+}
+/* 商品大类隐藏的div 添加和修改  */
+#add_and_edit{
+	 display:none; 
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	top:120px;
+	left:30%;
+	background:#fff;
+	/* border-top: 2px solid red;  */
+}
+#add_and_edit>.hid_top{
+	width: 100%;
+	height: 30px;
+	background: #ECF3FF;
+	/* border-top:3px solid  #D3E2F6; */
+}
+#add_and_edit>.hid_top span{
+	float: left;
+	margin: 5px 0px 0px 15px;
+}
+
+#add_and_edit>.hid_top i{
+	float: right;
+	background: red;
+	margin: 5px 15px 0px 0px;
+}
+#add_and_edit>.hid_body{
+	border: 3px solid #D3E2F6;
+	width: 494px;
+	height: 264px;
+}
+#add_and_edit>.hid_body form{
+	line-height:55px;
+	padding-left: 65px;
+}
+#add_and_edit>.hid_body .ipt{
+	width:200px;
+}
+#add_and_edit>.hid_body .sbm,#add_and_edit>.hid_body .btn,.home{
+	width: 50px;
+	height: 25px;
+	margin: 10px 10px 0px 40px;
+}
+
+/* 设置商品小类别 页面  分页*/
+
+#page_Set{
+	margin-top:20px;
+	border:1px red solid;
+	text-align: center;
+}
+#page_Set a{
+	font-size:15px;
+	margin-left:15px;
+	text-decoration: none;
+}
+#page_Set a:hover{
+	text-decoration:underline;
+	color:orange;
+}
+
+/* 商品页面  商品样式修饰   表单提交样式 */
+
+#commodity_select{
+	
+	height: 50px;
+	background-color: #DADADA;
+	
+	
+}
+#commodity_select .commodity_manage{
+	height: 25px;
+	
+}
+#commodity_select .commodity_manage .btn{
+	height: 25px;
+	width:100px;
+	margin-left: 20px;
+	border: 0px;
+	background-color: #DADADA;
+}
+#myForm .select_condition{
+	margin-left:20px;
+	
+}
+#myForm .sbm{
+	width: 80px;
+	height: 22px;
+	
+	
+}
+/* 商品页面的添加和修改 的div */
+
+ #commodity_addAndEdit{
+ 		display:none;
+        position:absolute;
+        width:500px;
+        height:350px;
+       left:25%;
+       top:80px; 
+        border:1px solid #9DBDE9;
+    }
+    /*大div里面的 头部div 设置*/
+#commodity_addAndEdit .addedit_top{
+        width:100%;
+        height:30px;
+        background:#E0ECFF;
+    }
+    /*头部里面的 span标签设置*/
+    #commodity_addAndEdit .addedit_top span{
+        margin:5px 20px;
+        float:left;
+    }
+    /*添加个修改的 主体div 设置*/
+    #commodity_addAndEdit .addedit_body{
+        width:490px;
+        height:310px;
+        border:5px solid #9dbde9;
+        background: #fff;
+        
+    }
+    /*设置主体div里面的标签统一的样式*/
+    #commodity_addAndEdit>.addedit_body .addandedit{
+        margin: 10px 0px 7px 8px;
+    } 
+    /*设置商品类别样式*/
+     #commodity_addAndEdit>.addedit_body .comtype{
+         margin-right:100px;
+     }
+     /*图片属性的设置*/
+     #commodity_addAndEdit>.addedit_body .imgfile{
+         width:170px;
+         margin-right:50px;
+     }
+     /*设置图片*/
+     #commodity_addAndEdit>.addedit_body img{
+         vertical-align: middle;
+
+     }
+     /*设置那个原产地的标签*/
+     #commodity_addAndEdit>.addedit_body .producing{
+         margin-right:15px;
+     }
+     /*设置那两个按钮的样式*/
+     #commodity_addAndEdit>.addedit_body .sbtandbtn{
+         margin-left:120px;
+         width: 60px;
+         height: 25px;
+     }
+
+/*  这是对商品信息分页样式的修饰 */
+
+
+.setPageStyle_Parentdiv{
+	
+	
+	 width:100%; 
+	 overflow:hidden;
+	 margin-top: 30px;
+	 text-align: center;
+	  border: 1px solid red;
+}
+
+#page_style{
+    margin-left:450px;
+    float:left;
+     border-left: 1px solid #8080ff;
+     border-right: 0px;
+      overflow: hidden;
+}
+#page_style a{
+    display: inline-block;
+    
+   font-size: 13px;
+   padding: 5px;
+   border-right:  1px #8080ff solid;
+   
+   color: #545454;
+}
+
+
+
+

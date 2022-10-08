@@ -1,0 +1,426 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+
+}
+body{
+    font-family: 微软雅黑;
+
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+#orderForm_all{
+    overflow: hidden;
+    width: 990px;
+    /*background: red;*/
+    position: relative;
+}
+#orderForm_all #option_left{
+    float: left;
+    width: 200px;
+    height: 500px;
+
+    background: #F5F5F5;
+    position: relative;
+}
+#option_left .option_ul li{
+    line-height: 40px;
+    border-bottom: 1px solid #E7E7E7;
+    font-size: 14px;
+    text-align: center;
+    
+}
+/*这是当点击 选项卡是 背景颜色*/
+.option_libackgroundColor{
+    background: #BFBFBF;
+}
+#option_left .option_ul li:hover{
+    opacity: .8;
+    cursor: pointer;
+
+}
+/* 设置大div样式   */
+#orderForm_all .all_function{
+    display: none;
+    float: right;
+    width: 782px;
+    /* height: 100%; */
+    border: 1px solid #E7E7E7;
+    /*background: yellow;*/
+
+}
+#orderForm_all #orderForm_page{
+    display: block;
+}
+/*这是 订单选项的样式*/
+#orderForm_page .orderForm_option{
+    overflow: hidden;
+    width: 100%;
+    background: #E7E7E7;
+}
+#orderForm_page .orderForm_option li{
+    float: left;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+}
+#orderForm_page .orderForm_option li:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+/*这是选择 查看订单状态的 选项 这是个是默认样式*/
+.orderForm_option_liInitialStyle{
+    background: #E7E7E7;
+    border-bottom: 2px solid #E7E7E7;
+    
+}
+/*这是选择 查看订单状态的 选项 这是 当点击后的样式*/
+.orderForm_option_liStyle{
+    background: #fff;
+    border-bottom: 2px solid rgb(193,224,237);
+}
+/*这下面是设置 订单详情的 头部样式*/
+#orderForm_body .orderForm_body_top{
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #E8E8E8;
+    background: #F5F5F5;
+}
+#orderForm_body .orderForm_body_top li{
+    float: left;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#orderForm_body .orderForm_body_top .orderForm_body_top01{
+    width: 280px;
+}
+#orderForm_body .orderForm_body_body{
+    overflow: hidden;
+    width: 100%;
+    margin: 5px 0px;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+#orderForm_body .orderForm_body_body .show_orderNumberAndTime{
+    overflow: hidden;
+    width: 100%;
+    background: #FAFBF8;
+
+}
+#orderForm_body .orderForm_body_body .show_orderNumberAndTime p{
+    line-height: 30px;
+    font-size: 13px;
+    margin-top: 0px;
+    height: 30px;
+}
+#orderForm_body .orderForm_body_body .show_orderNumberAndTime .orderNumber{
+    float: left;
+    margin-left: 20px;
+}
+#orderForm_body .orderForm_body_body .show_orderNumberAndTime .orderTime{
+    float: right;
+    margin-right: 20px;
+}
+#orderForm_body .orderForm_body_body>ul li{
+    float: left;
+    height: 80px;
+    width: 99px;
+    font-size: 13px;
+    border-right: 1px solid #ECECEC;
+    position: relative;
+    color: #3c3c3c;
+}
+#orderForm_body .orderForm_body_body>ul .orderForm_body_body_top01{
+    width: 279px;
+
+}
+#orderForm_body .orderForm_body_body>ul li img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+#orderForm_body .orderForm_body_body>ul .orderForm_body_body_top01 p{
+    float: left;
+    overflow: hidden;
+    margin-top: 25px;
+    width: 198px;
+    font-size: 12px;
+
+}
+#orderForm_body .orderForm_body_body>ul li span{
+    display: block;
+    margin: 31px 0px;
+    text-align: center;
+    float: none;
+
+}
+#orderForm_body .orderForm_body_body .execute{
+    text-align: center;
+    float: none;
+}
+#orderForm_body .orderForm_body_body>ul li .cancel_orderForm{
+    margin-top: 20px;
+}
+#orderForm_body .orderForm_body_body>ul li .cancel_orderForm a{
+    font-size: 12px;
+    color: #3c3c3c;
+
+}
+#orderForm_body .orderForm_body_body>ul li .goma_commodity{
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 4px 0px;
+    width: 73px;
+    height: 18px;
+    background: rgb(193,224,237);
+    color: #fff;
+    border-radius: 4px;
+}
+#orderForm_body .orderForm_body_body>ul li .goma_commodity .quer_shouhuo{
+    text-decoration: none;
+    color: #Fff;
+    font-size: 13px;
+}
+#orderForm_body .orderForm_body_body>ul li .goma_commodity:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+/*这是购买商品的div*/
+#orderForm_body .orderForm_body_body .goumaiCommodity_payMoney{
+    
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    right: 10px;
+    bottom: 5px;
+    background: rgb(193,224,237);
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 17px;
+}
+#orderForm_body .orderForm_body_body .goumaiCommodity_payMoney .ipt{
+    width: 120px;
+    margin-top: 15px;
+}
+#orderForm_body .orderForm_body_body .goumaiCommodity_payMoney label{
+    color: #eee;
+    font-size: 13px;
+    margin: 15px 13px;
+}
+#orderForm_body .orderForm_body_body .goumaiCommodity_payMoney .err-prompt{
+	display:none;
+	width:200px;
+	height:15px;
+	margin:0px auto;
+	margin-right:20px;
+	/*background:red;*/
+	color:red;
+	font-size:13px;
+}
+#orderForm_body .orderForm_body_body .goumaiCommodity_payMoney .sub{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid rgb(193,224,237);
+    background: #eee;
+}
+
+
+
+/*用户信息 样式*/
+
+#userInfo_page .userInfo_div{
+    width: 500px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#userInfo_page .userInfo_div .lbl{
+    display: inline-block;
+    width: 90px;
+    font-size: 13px;
+
+}
+#userInfo_page .userInfo_div .ipt{
+    margin: 5px 10px;
+}
+#userInfo_page .userInfo_div .laydate-icon{
+    width: 152px;
+}
+#userInfo_page .userInfo_div .sub{
+    margin: 19px 0px 20px 100px;
+    width: 60px;
+    padding:3px 0px;
+    background: rgb(193,224,237);
+    border: 1px solid rgb(193,224,237);
+}
+
+
+#userInfo_page .userInfo_div .sub:HOVER{
+	cursor: pointer;
+	opacity:.8;
+}
+
+
+
+
+
+/*收货地址 样式*/
+
+#consigAddress_page{
+	position: relative;
+}
+
+#consigAddress_page .userAddress_manage{
+    overflow: hidden;
+    width: 720px;
+    margin-left: 60px;
+    color: #666666;
+    font-size: 13px;
+    margin-bottom:20px;
+}
+#consigAddress_page .userAddress_manage .ipt,#consigAddress_page .userAddress_manage .lbl{
+    margin: 7px 0px;
+}
+#consigAddress_page .userAddress_manage .botton_address{
+    display: inline-block;
+    padding: 3px 0px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    border-radius: 2px;
+}
+#consigAddress_page .userAddress_manage .botton_address:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+#consigAddress_page .userAddress_manage .default{
+    width: 80px;
+    background: #BD161B;
+    
+}
+#consigAddress_page .userAddress_manage .delete{
+    width: 80px;
+    background: #0090C6;
+}
+#consigAddress_page .userAddress_manage .add{
+    width: 60px;
+    background: rgb(193,224,237);
+    
+}
+/*添加地址样式*/
+#consigAddress_page .add_userAddress{
+    display: none;
+    width: 350px;
+    overflow: hidden;
+    position: absolute;
+    background: #BFBFBF;
+    padding: 10px 0px;
+    top: 20px;
+    left:30px;
+    font-size: 13px;
+
+}
+#consigAddress_page .add_userAddress .lbl{
+    margin: 0px 10px;
+}
+#consigAddress_page .add_userAddress .ipt_address{
+	width:205px;
+}
+
+#consigAddress_page .add_userAddress .sub_addAddredd{
+    
+    
+    margin-left: 90px;
+    margin-top: 20px;
+    padding: 2px 20px;
+    background: rgb(193,224,237);
+    border: 1px solid rgb(193,224,237);
+}
+#consigAddress_page .add_userAddress .sub_cancel2{
+    margin-left: 20px;
+    
+    margin-top: 20px;
+    padding: 2px 20px;
+    background: rgb(193,224,237);
+    border: 1px solid rgb(193,224,237);
+}
+
+
+/*  修改密码样式*/
+
+
+#updatePwd_page .update_pwd{
+    margin-top: 70px;
+    width: 400px;
+    overflow: hidden;
+
+}
+#updatePwd_page .update_pwd .lbl{
+    margin: 10px 0px;
+    color: #5A5A5A;
+    font-size: 13px;
+}
+#updatePwd_page .update_pwd .ipt{
+    margin: 5px;
+    border: #DCDCDC 1px solid;
+    width: 200px;
+    margin: 10px 0px;
+    
+}
+#updatePwd_page .update_pwd .err_prompt{
+    float: none;
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+    display: none;
+}
+#updatePwd_page .update_pwd .yes_btn{
+    background: rgb(193,224,237);
+    border: 1px solid rgb(193,224,237);
+    padding: 5px 87px;
+    margin: 20px 0px 20px 0px;
+    color: #6c6c6c;
+    border-radius: 2px;
+
+}
+
+/* 余额充值样式*/
+ 
+#add_balance .userBalance_div{
+    width: 480px;
+    overflow: hidden;
+ }
+ #add_balance .userBalance_div .lbl{
+     display: inline-block;
+     width: 140px;
+     font-size: 13px;
+ }
+  #add_balance .userBalance_div .ipt{
+    margin: 5px;
+ }
+ #add_balance .userBalance_div .sbm{
+     margin: 30px 0px 20px 145px;
+     padding: 6px 30px;
+     border: 1px solid #ffc;
+     background: rgb(193,224,237);
+     border-radius: 3px;
+     color: #999999;
+ }
+ #add_balance .userBalance_div .sbm:hover{
+     cursor: pointer;
+     opacity: .8;
+ }

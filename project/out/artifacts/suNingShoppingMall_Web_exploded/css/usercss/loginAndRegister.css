@@ -1,0 +1,338 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    font-family: 微软雅黑;
+    background: #f8f8f8;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+#register_all {
+    width: 990px;
+    position: relative;
+}
+
+#register_all #register_top {
+    width: 100%;
+    overflow: hidden;
+}
+
+#register_top .suNing_img {
+    float: left;
+}
+
+#register_top .log_url {
+    float: right;
+    margin-top: 68px;
+    font-size: 13px;
+
+}
+
+#register_all #register_body {
+    width: 100%;
+    height: 650px;
+    background: #fff;
+}
+
+/*这是最上面的提示*/
+#register_body .register_body_top {
+    position: relative;
+    width: 870px;
+    height: 35px;
+    padding-top: 50px;
+    font: 18px "Microsoft YaHei";
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+
+}
+
+/*只是 名字*/
+#register_body .register_body_top p {
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    color: rgb(193,224,237);
+    border-bottom: 2px solid rgb(193,224,237);
+}
+
+/*这是信息提示div*/
+#register_body .register_body_prompt {
+    width: 440px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/*这是信息提示*/
+.register_body_prompt .register_prompt {
+    width: 404px;
+    font-family: "microsoft yahei";
+    border: 1px solid rgb(193,224,237);
+    background-color: #fffff0;
+    color: #0f53b3;
+    padding: 7px 0 7px 34px;
+    margin-top: 30px !important;
+
+}
+
+/*这是整个 注册信息的div*/
+.reg_form {
+
+    width: 440px;
+    margin-top: 20px;
+    padding-bottom: 85px;
+}
+
+/*这是账户框和密码框父级的div 样式*/
+.reg_form .reg_textbox, .reg_form .reg_pwd {
+    width: 440px;
+    position: relative;
+    height: 38px;
+    border: solid 1px #ddd;
+    background: #fff;
+    overflow: hidden;
+}
+
+/*这是 信息不合法的边框样式*/
+.err-border {
+    border: 1px solid #f55;
+}
+
+
+/*这是账户框和密码框里的提示字*/
+.reg_form .reg_textbox .input_label, .reg_form .reg_pwd .input_label {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    color: #999;
+    background: transparent;
+    cursor: text;
+}
+
+/*这是设置 账户框和密码框的样式*/
+.reg_form .reg_textbox input, .reg_form .reg_pwd input {
+    width: 360px;
+    float: left;
+    margin-top: 7px;
+    padding: 10px 5px;
+    height: 18px;
+    color: #333;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    border: 0px;
+}
+
+/*这是显示提示错误的div样式*/
+.reg_form .input-tip {
+    clear: both;
+    font-family: "microsoft yahei";
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+    color: red;
+
+}
+
+/*这是选择用户协议*/
+.reg_form .reg-tip {
+    height: 16px;
+    color: #333;
+    font-size: 12px;
+
+}
+
+.reg_form .reg-tip .check {
+    float: left;
+    margin: 2px 3px 0px 3px;;
+
+}
+
+
+/*这是提交按钮的样式*/
+.reg_form .btn-sub {
+    width: 100%;
+
+}
+
+.reg_form .btn-sub .reg-submit {
+    width: 100%;
+    padding: 10px 0px;
+
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 700;
+    color: #fff;
+    background: rgb(193,224,237);
+    text-decoration: none;
+    border-radius: 3px;
+    border: 0px;
+}
+
+.reg_form .btn-sub .reg-submit:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+
+/*==============================用户登录样式==========================================*/
+
+#login_top {
+    width: 970px;
+    overflow: hidden;
+
+}
+
+#login_body {
+    height: 600px;
+    background-image: url("../../images/commonTopandBottom/dd.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+#login_body .login_form {
+    position: absolute;
+    width: 386px;
+    height: 310px;
+    top: 15px;
+    right: 300px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    color: #323232;
+    line-height: 1;
+
+}
+
+#login_body .login_form .form_top {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    border-bottom: 1px solid rgb(193,224,237);
+    background: rgba(255, 253, 245, 1);
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.login_form .form_top a {
+    color: rgb(193,224,237);
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    top: 15px;
+    left: 35px;
+    font-size: 20px;
+
+}
+
+.login_form .err_msg {
+    width: 330px;
+    height: 25px;
+
+}
+
+.hide {
+    background: #fff0f0;
+    border: 1px solid #f55;
+    font-size: 13px;
+    padding: 10px 0px 0px 20px;
+}
+
+.login_form .err_msg p {
+    display: none;
+}
+
+.login_form .login-txtbox {
+
+    position: relative;
+    margin-top: 5px;
+    width: 348px;
+    height: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.login_form .login-txtbox .input-label {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    font-size: 14px;
+    color: #999;
+    cursor: text;
+}
+
+.login_form .login-txtbox .txt-input {
+    width: 294px;
+    height: 18px;
+    margin-top: 7px;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    overflow: hidden;
+    border: 0px;
+    outline: 0px;
+}
+
+.login_form .auto-login {
+    width: 348px;
+
+}
+
+.login_form .auto-login label, .login_form .auto-login span {
+    float: left;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.login_form .auto-login .warn-msg {
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 228px;
+    padding: 2px 5px 2px 34px;
+    background: ivory;
+    border: 1px solid rgb(193,224,237);
+
+}
+
+.login_form .sub {
+    display: block;
+    width: 348px;
+    margin-top: 20px;
+    padding: 10px 0px;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background: rgb(193,224,237);
+    border-radius: 4px;
+
+}
+
+.login_form .sub:hover {
+    cursor: pointer;
+}
+

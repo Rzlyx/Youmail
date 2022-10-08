@@ -1,0 +1,202 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+body{
+    font-family: 微软雅黑;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*设置整个头部的 大体*/
+#topAll{
+    width: 1364px;
+    height: 175px;
+    position:relative;
+    border: 1px solid slategray;
+}
+/*把头部分为了三块 同时设置他们的 宽度*/
+.topAll-top,.topAll-body,.topAll-bottom{
+    width: 100%;
+}
+/*这是设置头部的 导航*/
+#topAll .topAll-top{
+    height: 30px;
+    background: #F5F5F5;
+    border-bottom: 1px solid #EEEEEE;
+    position: relative;
+}
+
+.topAll-top .top-left,.topAll-top .top-right{
+    float: left;
+   height: 100%;
+}
+.topAll-top .top-left li,.topAll-top .top-right li{
+    float: left;
+    position: relative;
+    
+}
+.topAll-top .top-left{
+    width: 150px;
+    
+    margin-right: 465px;
+    margin-left: 90px;
+
+}
+.topAll-top .top-left .hien{
+    position: absolute;
+    display: none;
+    clear: both;
+    height: 130px;
+    width: 105px;
+    top: 28px;
+    left: 0px;
+    border: 1px solid #EEEEEE;
+    
+    background: #fff;
+    
+}
+.topAll-top .top-left .hien li{
+    font-size: 14px;
+    margin: 5px,0px,5px,10px;
+
+}
+
+.topAll-top .top-right #carCount{
+    display: inline-block;
+    height: 16px;
+    background: rgb(193,224,237);
+    min-width: 8px;
+    padding: 0px 4px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.topAll-top .top-left .left-li,.topAll-top .top-right li{
+    margin-left: 26px;
+    margin-top: 3px;
+    
+}
+
+
+.topAll-top .top-left li a,.topAll-top .top-right li a{
+    font-size: 13px;
+    color: #666666;
+}
+.topAll-top .top-left li a:hover,.topAll-top .top-right li a:hover{
+    text-decoration: underline;
+}
+
+.topAll-top .top-right{
+    width: 650px;
+    
+    
+}
+
+
+
+/*这是头部 中间的 部分*/
+#topAll .topAll-body{
+    
+    height: 105px;
+    
+}
+
+.topAll-body .body-log{
+    float: left;
+    margin-left: 90px;
+}
+
+.topAll-body .body-center{
+    width: 600px;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.topAll-body .body-center .ipt{
+	float:left;
+    width: 498px;
+    height: 36px;
+    border: 2px solid rgb(193,224,237);
+   
+    
+}
+.topAll-body .body-center .smb{
+    /*display: inline-block;*/
+    float: left;
+    font-size: 18px;
+    vertical-align: middle; 
+    height: 36px;
+    width: 98px;
+    /*margin-left: 5px;*/
+    background: rgb(193,224,237);
+    color: #333333;
+    border-color: #FFC001;
+    border: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    /* 让子的间距分开*/
+    letter-spacing:7px;  
+    
+    /*padding-top: 8px;  */
+}
+.topAll-body .body-center .smb:hover{
+    cursor: pointer;
+}
+.topAll-body .body-center .ipt-next a{
+    font-size: 13px;
+    color: #999999;
+    margin-right: 5px;
+}
+
+
+.topAll-body .bottom-img{
+    float: left;
+    width: 160px;
+    height: 100px;
+    background: blue;
+    margin-left: 60px;
+}
+
+
+/*这是头部的底部部分*/
+#topAll .topAll-bottom{
+    
+    height: 35px;
+    width: 1190px;
+    position: relative;
+}
+
+.topAll-bottom .allType{
+    display: block;
+    float: left;
+    width: 190px;
+    height: 100%;
+    background: rgb(193,224,237);
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 7px 0px 0px 15px;
+
+
+}
+.topAll-bottom .typepage li{
+    float: left;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.topAll-bottom .typepage li a{
+    color: #333333;
+    font-size: 15px;
+}
+.topAll-bottom .typepage li a:hover{
+    text-decoration: underline;
+    color: #FF8A00;
+}

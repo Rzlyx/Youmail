@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+   <description>JSTL 1.2 core library</description>
+  <display-name>JSTL core</display-name>
+  <tlib-version>1.2</tlib-version>
+  <short-name>h</short-name>
+  <uri>http://suNing.homeCommodityShow.com</uri>
+  		<tag>
+  				<description>
+  						<!-- 这是一个展示商品信息的标签   的自定义标签 -->
+  				</description>
+  				<name>commodityList</name>
+  				<tag-class>org.suNing.controller.showServlet.BroadTypeIdGetCommodityTag</tag-class>
+  				<body-content>empty</body-content>
+  				<attribute>
+  						<description><!--  通过这个属性获取商品大类id后  查询对应的商品信息并展示出来 --></description>
+						<name>braodTypeId</name>
+						<required>true</required>
+						<rtexprvalue>true</rtexprvalue>
+  				</attribute>	
+  		</tag>
+  	
+  
+  </taglib>
+  

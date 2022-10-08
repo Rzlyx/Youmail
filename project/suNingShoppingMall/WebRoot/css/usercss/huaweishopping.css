@@ -1,0 +1,313 @@
+*{
+    margin:0px auto;
+    padding:0px;
+}
+body{
+    font-family: "微软雅黑", frutigernext, "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+a{
+    color: #646464;
+    text-decoration: none;
+
+}
+li{
+    list-style-type: none;
+}
+
+
+.body-top{
+    width:780px;
+    height:28px;
+    margin:0px auto;
+    background: #F7F7F7;
+    vertical-align: middle;
+    border: 1px solid #dedede;
+    /*border-bottom: none;*/
+}
+.body-top>i,p,span{
+    float: left;
+    height:20px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.body-top i{
+    display: inline-block;
+    width:37px;
+    text-align: center;
+    margin-right: 20.5px;
+}
+.body-top p{
+    width:250px;
+    text-align: center;
+}
+.body-top span{
+    display: inline-block;
+    width:100px;
+    text-align: center;
+    /*background: #000;*/
+}
+.body-top .last{
+    width:100px;
+    /*background: red;*/
+}
+
+.body-shopping{
+    width:780px;
+    margin:0px auto;
+    /*background: blue;*/
+    height:107px;
+
+}
+.body-shopping table{
+    width:100%;
+    height:100%;
+    border:1px #DEDEDE solid;
+    border-top: 0px;
+    /*padding-left:;*/
+    /*margin-top: -1px;*/
+    margin:0px;
+}
+.body-shopping table td{
+    height:100%;
+    border-width:0px 1px 0px 0px;
+    /*border-color: red;*/
+    /*background: red;*/
+    margin:0px;
+    padding:0px;
+
+}
+.body-shopping table .td-check{
+    width:37px;
+    /*border-right: 0px;*/
+    /*margin-left: 6px;*/
+    text-align: center;
+}
+.body-shopping table .td-shopping{
+    width:456px;
+    /*text-align: center;*/
+    /*border-right: 0px;*/
+    /*background: red;*/
+    /*margin-left: 6px;*/
+}
+.body-shopping table .td-shopping div{
+    height:65px;
+    margin:20px 20px 20px 0px;
+
+}
+.body-shopping table .td-shopping div p{
+    border:1px #DEDEDE solid;
+    width:63px;
+    height:65px;
+    margin-right: 10px;
+    margin-top:-2px;
+
+}
+.body-shopping table .td-shopping div img{
+    float: left;
+    width:63px;
+    height:63px;
+}
+.body-shopping table .td-shopping div a,span{
+    /*float: left;*/
+    /*vertical-align: middle;*/
+}
+.body-shopping table .td-shopping div a{
+    display: block;
+    font-size: 13px;
+    color: #646464;
+    /*margin-right: 5px;*/
+}
+.body-shopping table .td-shopping div a:hover{
+    text-decoration: underline;
+}
+
+.body-shopping table .td-shopping div span{
+    display: block;
+    font-size: 12px;
+    color: #ADADAD;
+}
+.body-shopping table .td-price{
+    width:154px;
+    /*background: red;*/
+    border-right: 1px solid #DEDEDE;
+}
+.body-shopping table .td-price p{
+    text-align: center;
+    width:100%;
+    font-size: 12px;
+    color: #646464;
+}
+.body-shopping table .td-num{
+    width:140px;
+    /*background: red;*/
+    /*text-align:center;*/
+    position: relative;
+    border-right: 1px solid #DEDEDE;
+}
+.body-shopping table .td-num input{
+    width:35px;
+    height:36px;
+    margin-left: 35px;
+    text-align: center;
+}
+.body-shopping table .td-num a{
+    position: absolute;
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border:1px #646464 solid;
+    left:80px;
+}
+.body-shopping table .td-num .jia{
+
+    top:34px;
+    background: url("../../images/shoppingImages/icon31.png") no-repeat 0px -42px;
+}
+.body-shopping table .td-num .jian{
+
+    top:55px;
+    background: url("../../images/shoppingImages/icon31.png")no-repeat 0px -65px;
+}
+.body-shopping table .td-num .jia:hover{
+    background: url("../../images/shoppingImages/icon31.png") no-repeat -25px -42px;
+}
+.body-shopping table .td-num .jian:hover{
+    background: url("../../images/shoppingImages/icon31.png")no-repeat -25px -65px;
+}
+
+.body-shopping table .td-money{
+    width:140px;
+    /*background: red;*/
+    /*border:1px #646464 solid;*/
+    border-right: 1px solid #DEDEDE;
+}
+.body-shopping table .td-money p{
+    text-align: center;
+    width:100%;
+    font-size: 12px;
+    color: #646464;
+}
+.body-shopping table .td-remove{
+    width:100px;
+    /*background: red;*/
+
+}
+.body-shopping table .td-remove a{
+    display: block;
+    text-align: center;
+    width:18px;
+    height:18px;
+    font-size: 12px;
+    color: #646464;
+    background: url("../../images/shoppingImages/icon33.png") no-repeat 4px -32px;
+    /*border:1px red solid;*/
+    margin:0px 42px 0px 42px;
+    cursor: pointer;
+}
+.body-shopping table .td-remove a:hover{
+    /*background: ;*/
+    background: url("../../images/shoppingImages/icon33.png") no-repeat 4px -50px red;
+}
+
+.body-bottom{
+    width:780px;
+    height:150px;
+    margin:0px auto;
+    border:1px #DEDEDE solid;
+    margin-top: 20px;
+}
+.body-bottom .checked-remove{
+    width:147px;
+    float: left;
+    /*background: red;*/
+    margin:10px 10px;
+
+}
+.body-bottom>.checked-remove>input,p{
+    float: left;
+
+}
+.body-bottom .checked-remove input{
+    /*text-align: center;;*/
+    margin-top: 7px;
+
+
+}
+
+.body-bottom .checked-remove p{
+    margin-left: 15px;
+    color: #28C0C6;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.body-bottom .total-money{
+    width:237px;
+    height:100%;
+    /*background: blue;*/
+    float: right;
+    margin-right: 20px;
+}
+.body-bottom .total-money p{
+    width:100%;
+    height:30px;
+    text-align: right;
+    font-size: 12px;
+    margin:10px 0px;
+    border-bottom: 1px #DEDEDE solid;
+}
+.body-bottom .total-money p span{
+    float: none;
+    /*text-align: right;*/
+    /*display: inline-block;*/
+    margin-left: 15px;
+}
+.body-bottom .total-money .total-p3{
+    font-size: 14px;
+    border-bottom: none;
+}
+.body-bottom .total-money .total-p3 .total2{
+    color: red;
+    font-size: 14px
+}
+.bottom-top{
+    height:150px;
+    width:780px;
+    margin:0px auto;
+    /*background: red;*/
+}
+.bottom-top p{
+    float: left;
+    box-sizing: border-box;
+    width:150px;
+    height:37px;
+    /*text-align: center;*/
+    font-size: 16px;
+    padding:5px 42px;
+    margin-top: 30px;
+
+
+
+
+}
+.bottom-top .continue{
+    border:1px solid #D1D1D1;
+    background: #F7F7F7;
+    /*margin-left: 850px;*/
+}
+.bottom-top .settle{
+    background: #E01D20;
+    color: #FFFFFF;
+    border:1px solid #E64A4D;
+    margin-left: 49px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+.bottom-top .settle:HOVER {
+	opacity:.7;
+}
+
+
+
+
+

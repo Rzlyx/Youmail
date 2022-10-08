@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="netsfjson">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/netsfjson" />
+      <root url="file://$USER_HOME$/Downloads/sqljdbc_11.2.0 (1).0_chs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/netsfjson" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/sqljdbc_11.2.0 (1).0_chs" recursive="false" />
+  </library>
+</component>
